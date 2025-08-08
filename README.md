@@ -1,111 +1,29 @@
-# Draw Inevitability in Chess Under Perfect Play
+# Draw Inevitability in Chess
 
-**Dataset, code, and LaTeX source for the paper:**
-*"Draw Inevitability in Chess Under Perfect Play: A Formal Conjecture and Theoretical Analysis"*
-by **Nikolai Nedovodin** (2025)
-
----
-
-## 📄 Overview
-
-This repository contains all materials associated with the paper, including:
-
-* **LaTeX source** of the full manuscript (`main.tex` and `references.bib`)
-* **Figures** (TikZ/PGFPlots) and diagram sources
-* **Python scripts** for empirical analysis
-* **Dataset links** for 4 million engine self-play games
-* **Reproducibility protocol** for falsifying or supporting the conjecture
-
-The project presents:
-
-* A **formal game-theoretic framework** for the draw inevitability conjecture
-* The **Draw Stability Index (DSI)** metric
-* Lemmas on **Repetition Safety** and **Fortress Basin Stability**
-* A large-scale multi-engine dataset
-* A reproducible falsifiability protocol
+**Author:** Nikolai Nedovodin  
+**Date:** August 2025  
 
 ---
 
-## 📂 Repository Structure
-
-```
-.
-├── main.tex              # Main LaTeX file for the paper
-├── references.bib        # Bibliography file
-├── figures/              # TikZ/PGFPlots figure sources
-├── scripts/              # Analysis scripts (Python)
-├── data/                 # Placeholder for datasets (not tracked in Git)
-├── results/              # Generated plots & processed results
-├── .gitignore            # Ignore rules for LaTeX, Python, datasets
-└── README.md             # This file
-```
+## 📄 Abstract
+We revisit the long-standing conjecture that classical chess is a theoretical draw.  
+We present an expanded formal framework, introducing **draw-attractor basins** and a novel metric, the **Draw Stability Index (DSI)**.  
+We provide formalized lemmas with proofs establishing sufficient conditions for a draw: **Repetition Safety** and **Fortress Basin Stability**.  
+Our empirical section includes a large-scale, multi-engine self-play dataset (4M games) with a public release protocol.  
+We formalize a **falsifiability protocol** with reproducible parameters, integrating perspectives from chess theory, game theory, and AI research toward a constructive resolution of the problem.
 
 ---
 
-## 📊 Dataset
-
-The **4-million-game self-play dataset** is too large to include in this repository.
-It is hosted externally (link forthcoming) and contains:
-
-* **Engines:** Stockfish 16 NNUE, Lc0 v0.30, Komodo Dragon 3
-* **Time Control:** 10+0.1
-* **Openings:** 500 ECO-coded positions
-* **Adjudication:** Syzygy 7-man tablebases
-* **Format:** PGN + JSON metadata
+## 📥 Download
+The full paper is available here:  
+[Draw_Inevitability_in_Chess.pdf](Draw_Inevitability_in_Chess.pdf)
 
 ---
 
-## 🛠 Installation
-
-Clone the repository:
-
-```
-git clone https://github.com/cputer/chess-draw-conjecture.git
-cd chess-draw-conjecture
-```
-
-If using Python scripts for analysis:
+## 📚 Citation
+If you use or refer to this work, please cite:
 
 ```
-pip install -r requirements.txt
+N. Nedovodin, "Draw Inevitability in Chess Under Perfect Play: A Formal Conjecture and Theoretical Analysis", 2025.
 ```
-
-If compiling the paper:
-
-```
-pdflatex main.tex
-bibtex main
-pdflatex main.tex
-pdflatex main.tex
-```
-
----
-
-## 📜 Citation
-
-If you use this work, please cite:
-
-```
-@article{nedovodin2025draw,
-  title={Draw Inevitability in Chess Under Perfect Play: A Formal Conjecture and Theoretical Analysis},
-  author={Nikolai Nedovodin},
-  year={2025},
-  note={arXiv preprint (forthcoming)}
-}
-```
-
----
-
-## 📬 Contact
-
-**Author:** Nikolai Nedovodin
-📧 **Email:** [info@cputer.com](mailto:info@cputer.com)
-
----
-
-## 📄 License
-
-All source code is released under the **MIT License**.
-Figures, datasets, and text are released under **CC BY 4.0** unless otherwise stated.
-
-
+(ArXiv link to be added once available)
