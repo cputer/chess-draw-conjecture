@@ -1,29 +1,26 @@
 # Draw Inevitability in Chess
 
-**Author:** Nikolai Nedovodin  
-**Date:** August 2025  
+**Paper:** *Draw Inevitability in Chess: A Formal Conjecture and Theoretical Analysis*  
+Author: **Nikolai Nedovodin** (2025)
 
 ---
 
-## 📄 Abstract
-We revisit the long-standing conjecture that classical chess is a theoretical draw.  
-We present an expanded formal framework, introducing **draw-attractor basins** and a novel metric, the **Draw Stability Index (DSI)**.  
-We provide formalized lemmas with proofs establishing sufficient conditions for a draw: **Repetition Safety** and **Fortress Basin Stability**.  
-Our empirical section includes a large-scale, multi-engine self-play dataset (4M games) with a public release protocol.  
-We formalize a **falsifiability protocol** with reproducible parameters, integrating perspectives from chess theory, game theory, and AI research toward a constructive resolution of the problem.
+## 📄 Overview
+This repository contains the final PDF of the paper.  
+The work presents a formal game-theoretic framework for the long-standing question of whether classical chess is a theoretical draw, introducing the Draw Stability Index (DSI) and structural lemmas for draw inevitability.
 
 ---
 
-## 📥 Download
-The full paper is available here:  
-[Draw_Inevitability_in_Chess.pdf](Draw_Inevitability_in_Chess.pdf)
-
----
-
-## 📚 Citation
-If you use or refer to this work, please cite:
+## 📜 Citation
+If you use this work, please cite as:
 
 ```
-N. Nedovodin, "Draw Inevitability in Chess Under Perfect Play: A Formal Conjecture and Theoretical Analysis", 2025.
+Nikolai Nedovodin (2025). Draw Inevitability in Chess: A Formal Conjecture and Theoretical Analysis.
 ```
-(ArXiv link to be added once available)
+*(arXiv link to be added upon publication)*
+
+---
+
+## 📄 License
+- **Text, figures, and PDF:** Creative Commons Attribution 4.0 International (CC BY 4.0) – see `LICENSE-CCBY.txt`
+- **Code (if any provided in future):** MIT License – see `LICENSE-MIT.txt`
